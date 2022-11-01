@@ -1,0 +1,57 @@
+Title: "&aMine %player%"
+Pattern:
+  - "#########"
+  - "#%#!*$#+#"
+  - "#########"
+
+Items:
+  '%':
+    Action: TELEPORT
+    Type: DIAMOND_PICKAXE
+    Data: 0
+    Name: "&aTeleport to your Private Mine"
+    Lore:
+      - "&7Click to teleport to your private mine and"
+      - "&7continue mining to earn money, tokens,"
+      - "&7experience and value to be a top player."
+  '!':
+    Action: MEMBERS
+    Type: SKULL_ITEM
+    Data: 3
+    Name: "&bMine Members"
+    Lore:
+      - "&7Click to view and manage players that have"
+      - "&7been added onto your private mine. You can"
+      - "&7kick and invite new players in this menu."
+  '*':
+    Action: SETTINGS
+    Type: REDSTONE_COMPARATOR
+    Data: 0
+    Name: "&bMine Settings"
+    Lore:
+      - "&7View by clicking mine settings which will"
+      - "&7give you access to create a tax, lock and"
+      - "&7unlock your private mine to other players."
+  '$':
+    Action: UPGRADES
+    Type: BEACON
+    Data: 0
+    Name: "&bMine Upgrade"
+    Lore:
+      - "&7View all available upgrades to your mine by"
+      - "&7clicking and selecting block or value upgrades"
+      - "&7block upgrades are prestige base and value"
+      - "&7upgrades require a certain amount of tokens."
+  '+':
+    Action: PUBLIC
+    Type: SIGN
+    Data: 0
+    Name: "&ePublic Mines"
+    Lore:
+      - "&7Click here to explore all available public mines"
+      - "&7that have been opened by the public to allow you"
+      - "&7to mine with other players on the network."
+  '#':
+    Type: STAINED_GLASS_PANE
+    Data: 15
+    Name: "&f*"

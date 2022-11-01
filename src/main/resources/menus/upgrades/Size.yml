@@ -1,0 +1,27 @@
+Title: "&7Mine Size Upgrades"
+Pattern:
+  - "*********"
+  - "*********"
+
+Size: '*'
+SizeItem:
+  Locked:
+    Name: "&aSize Upgrade %level%"
+    Type: BARRIER
+    Data: 0
+    Lore:
+      - "&7Blocks: &a%amount% &8/ &c%required% &a%percentage%"
+      - "&8- %progress% &8-"
+      - "&7Size: &f%size%"
+      - "&f"
+      - "&7&oMine blocks to unlock upgrade."
+      - "&c&lLOCKED"
+  Unlocked:
+    Name: "&aSize Upgrade %level%"
+    Type: BEDROCK
+    Data: 0
+    Lore:
+      - "&7Size: &f%size%"
+      - "&f"
+      - "&a&lUNLOCKED"
+

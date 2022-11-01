@@ -1,0 +1,23 @@
+Title: "&aPublic Mines"
+Pattern:
+  - "#########"
+  - "#*******#"
+  - "#*******#"
+  - "<########"
+
+Mines: '*'
+MinesItem:
+  Action: TELEPORT
+  Type: DIAMOND_PICKAXE
+  Data: 0
+  Name: "&a%player%'s Mine"
+  Lore:
+    - "&f"
+    - "&7Click to teleport"
+
+Items:
+  '<':
+    Action: BACK
+    Type: WOOL
+    Data: 14
+    Name: "&cPrevious Page"

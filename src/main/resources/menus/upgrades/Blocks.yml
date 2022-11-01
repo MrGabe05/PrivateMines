@@ -1,0 +1,30 @@
+Title: "&7Mine Block Upgrade"
+Pattern:
+  - "*********"
+  - "*********"
+  - "*********"
+
+Block: '*'
+BlockItem:
+  Locked:
+    Name: "&c%type_name%"
+    Type: BARRIER
+    Data: 0
+    Lore:
+      - "&f"
+      - " &cThis block is currently locked and"
+      - "&cwill be unlocked at &c&lPrestige %required%"
+      - "&f"
+      - "&7Cannot select this block."
+      - "&c&lLOCKED"
+  Unlocked:
+    Name: "&a%type_name%"
+    Lore:
+      - "&7Prestige: &a%prestige%"
+      - "&f"
+      - "&7Click here to select"
+      - "&a&lUNLOCKED"
+  Select:
+    Name: "&e%type_name%"
+    Lore:
+      - "&7Prestige: &a%prestige%"

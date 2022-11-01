@@ -1,0 +1,71 @@
+Title: "&7Mine Value Upgrade"
+Pattern:
+  - "$$$$$$$$$"
+  - "%%%%%%%%%"
+  - "!!!!!!!!!"
+
+Sponge: '$'
+SpongeItem:
+  Locked:
+    Name: "&cSponge Upgrade %level%"
+    Type: SPONGE
+    Data: 0
+    Lore:
+      - "&7Tokens&8: &f%amount%"
+      - "&7Sponge&8: &f%chance%"
+      - "&f"
+      - "&7&oClick to purchase upgrade"
+      - "&c&lLOCKED"
+  Unlocked:
+    Name: "&aSponge Upgrade %level%"
+    Type: SPONGE
+    Data: 0
+    Lore:
+      - "&7Tokens&8: &f%amount%"
+      - "&7Sponge&8: &f%chance%"
+      - "&f"
+      - "&a&lUNLOCKED"
+
+Note: '%'
+NoteItem:
+  Locked:
+    Name: "&cNote Block Upgrade %level%"
+    Type: NOTE_BLOCK
+    Data: 0
+    Lore:
+      - "&7Tokens&8: &f%amount%"
+      - "&7Sponge&8: &f%chance%"
+      - "&f"
+      - "&7&oClick to purchase upgrade"
+      - "&c&lLOCKED"
+  Unlocked:
+    Name: "&aNote Block Upgrade %level%"
+    Type: NOTE_BLOCK
+    Data: 0
+    Lore:
+      - "&7Tokens&8: &f%amount%"
+      - "&7Sponge&8: &f%chance%"
+      - "&f"
+      - "&a&lUNLOCKED"
+
+SeaLantern: '!'
+SeaLanternItem:
+  Locked:
+    Name: "&cSea Lantern Upgrade %level%"
+    Type: SEA_LANTERN
+    Data: 0
+    Lore:
+      - "&7Tokens&8: &f%amount%"
+      - "&7Sponge&8: &f%chance%"
+      - "&f"
+      - "&7&oClick to purchase upgrade"
+      - "&c&lLOCKED"
+  Unlocked:
+    Name: "&aSea Lantern Upgrade %level%"
+    Type: SEA_LANTERN
+    Data: 0
+    Lore:
+      - "&7Tokens&8: &f%amount%"
+      - "&7Sponge&8: &f%chance%"
+      - "&f"
+      - "&a&lUNLOCKED"

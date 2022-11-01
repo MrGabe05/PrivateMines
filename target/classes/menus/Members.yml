@@ -1,0 +1,25 @@
+Title: "&aMembers"
+Pattern:
+  - "#########"
+  - "#@@@@@@@#"
+  - "#@@@@@@@#"
+  - "<########"
+
+Members: '@'
+MembersItem:
+  Type: SKULL_ITEM
+  Data: 3
+  Name: "&a%player%"
+  Lore:
+    - ""
+
+Items:
+  '<':
+    Action: BACK
+    Type: WOOL
+    Data: 14
+    Name: "&cPrevious Page"
+  '#':
+    Type: STAINED_GLASS_PANE
+    Data: 15
+    Name: "&f*"

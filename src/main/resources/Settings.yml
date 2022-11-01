@@ -1,0 +1,11 @@
+StorageType: SQLite
+MySQL:
+  Host: localhost
+  Port: 3306
+  Database: privatemines
+  Username: root
+  Password: pass1234
+Settings:
+  Debug: false
+  TimeReset: 5
+  MineMemberLimits: 3

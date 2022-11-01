@@ -1,0 +1,63 @@
+Blocks:
+  # Level
+  1:
+    Amount: 20000
+    Block: "STONE"
+    Data: 0
+  2:
+    Amount: 30000
+    Block: "COBBLESTONE"
+    Data: 0
+  3:
+    Amount: 50000
+    Block: "STONE"
+    Data: 5
+Value:
+  Sponge:
+    1:
+      Price: 20000.0
+      Chance: 0.01
+      Rewards:
+        - "command"
+    2:
+      Price: 30000.0
+      Chance: 0.015
+      Rewards:
+        - "command"
+    3:
+      Price: 50000.0
+      Chance: 0.03
+      Rewards:
+        - "command"
+  Note:
+    4:
+      Price: 20000.0
+      Chance: 0.01
+      Rewards:
+        - "command"
+    5:
+      Price: 30000.0
+      Chance: 0.015
+      Rewards:
+        - "command"
+    6:
+      Price: 50000.0
+      Chance: 0.03
+      Rewards:
+        - "command"
+  SeaLantern:
+    7:
+      Price: 20000.0
+      Chance: 0.01
+      Rewards:
+        - "command"
+    8:
+      Price: 30000.0
+      Chance: 0.015
+      Rewards:
+        - "command"
+    9:
+      Price: 50000.0
+      Chance: 0.03
+      Rewards:
+        - "command"

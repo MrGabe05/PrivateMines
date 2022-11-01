@@ -1,0 +1,20 @@
+Title: "&7Mine Themes"
+InventoryType: HOPPER
+Pattern:
+  - "#####"
+
+Themes:
+  Custom:
+    Name: "&a&lCustom &f&lMine"
+    Type: DIAMOND_PICKAXE
+    Data: 0
+    Lore:
+      - "&8Free Mine"
+      - "&f"
+      - "&7This is a default mine called &a&lCustom &f&lMine"
+      - "&f"
+      - "&aFree &7- &f50x50"
+      - "&f"
+      - "&f&lClick here &7to create a &a&lCustom &f&lMine"
+    Enchants:
+      DURABILITY: 3

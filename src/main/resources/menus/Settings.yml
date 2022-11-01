@@ -1,0 +1,41 @@
+Title: "&7Settings"
+Pattern:
+  - "#########"
+  - "##%#$#!##"
+  - "<########"
+
+Items:
+  '%':
+    Action: LOCK
+    Type: TRIPWIRE_HOOK
+    Data: 0
+    Name: "&aLock Mine"
+    Lore:
+      - "&7Click to toggle open/close of your mine"
+      - "&f"
+      - "&eStatus&7: %status%"
+  '!':
+    Action: DELETE
+    Type: DIAMOND_HOE
+    Data: 0
+    Name: "&cDelete Mine"
+    Lore:
+      - "&7Click to delete your mine!"
+      - "&c&lthis can't be reversed"
+      - "&7think carefully about your decision."
+  '$':
+    Action: KICK_ALL
+    Type: DIAMOND_SWORD
+    Data: 0
+    Name: "&cKick all members"
+    Lore:
+      - "&7Kick all players out of your mine."
+  '<':
+    Action: BACK
+    Type: WOOL
+    Data: 14
+    Name: "&cPrevious Page"
+  '#':
+    Type: STAINED_GLASS_PANE
+    Data: 15
+    Name: "&f*"

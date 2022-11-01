@@ -1,0 +1,43 @@
+Title: "&7Upgrades"
+Pattern:
+  - "#########"
+  - "##%#!#$##"
+  - "<########"
+
+Items:
+  '%':
+    Action: SIZE
+    Type: BEDROCK
+    Data: 0
+    Name: "&c&lSize Upgrades"
+    Lore:
+      - "&7Upgrade the size of your mine"
+  '!':
+    Action: VALUE
+    Type: SEA_LANTERN
+    Data: 0
+    Name: "&b&lValue Upgrades"
+    Lore:
+      - "&7Upgrade the value blocks that spawn in your"
+      - "&7mine to get different value blocks and higher"
+      - "&7spawn percentages. You must use tokens to"
+      - "&7upgrade the value blocks in your private mine."
+  '$':
+    Action: BLOCKS
+    Type: EMERALD_BLOCK
+    Data: 0
+    Name: "&eBlock Upgrades"
+    Lore:
+      - "&7Unlock different types of blocks for your"
+      - "&7mine. You can unlock different types of"
+      - "&7blocks the higher your prestige. The higher"
+      - "&7the prestige and block the bigger sell multiplier."
+  '<':
+    Action: BACK
+    Type: WOOL
+    Data: 14
+    Name: "&cPrevious Page"
+  '#':
+    Type: STAINED_GLASS_PANE
+    Data: 15
+    Name: ""
